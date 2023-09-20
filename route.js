@@ -18,6 +18,7 @@ for(let i=0; i<kid.length; i++){
         if(temp==b[0]){
             n=j
             ans=ans+ticket[j]+" > "
+            break;
         }
     }
     let c=ticket[n].split("-");
