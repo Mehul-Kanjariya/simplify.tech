@@ -1,0 +1,58 @@
+#parent {
+    background-color: rgb(37, 27, 27);
+    height: 300px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    margin: auto;
+  }
+  .shape {
+      height: 200px;
+      width: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      /* border: 2px solid green; */
+  }
+  .shape > div {
+    height: 15px;
+    border: 1px solid white;
+  }
+  .shape:nth-child(1)>div:nth-child(1){
+    background: rgb(234, 75, 7);
+  }
+  .shape:nth-child(1)>div:nth-child(2){
+    background: rgb(9, 174, 239);
+  }
+  .shape:nth-child(2)>div:nth-child(1){
+    background: rgb(234, 227, 223);
+  }
+  .shape:nth-child(2)>div:nth-child(2){
+    background: rgb(162, 244, 162);
+  }
+  #parent > div:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    rotate: 45deg;
+    translate:  50px 50px;
+    /* border: 2px solid red; */
+  }
+  #parent > div > div:nth-child(2) {
+    rotate: 90deg;
+    translate: 0px -200px;
+  }
+  #parent > div:nth-child(2) {
+    position: absolute;
+    top: 125px;
+    left:684px;
+  }
+  
+  .html{
+    font-size: 23px;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .html>span{
+    color: rgb(234, 75, 7);
+  }
